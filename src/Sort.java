@@ -20,7 +20,6 @@ interface Dummy {
         for (int i = 0; i < num; i++) {
             a[i] = (num - i)*19;
         }
-
     }
 
     public default void PartiallySorted(int[] a, int num) {     //배열을 일부분만 정렬하고 나머지는 랜덤으로 채움
@@ -33,13 +32,6 @@ interface Dummy {
 
         for (int i = 0; i < num / 10; i++) {
             a[r + i] = i + 1;
-        }
-
-    }
-
-    public default void Sorted(int[] a, int num) {
-        for (int i = 0; i < num; i++) {
-            a[i] = i;
         }
     }
 }
@@ -220,29 +212,6 @@ public class Sort {
 
     }
 
-    public static void main(String[] args) {
-        DummyData dummyData = new DummyData();
-        BubbleSort bubbleSort = new BubbleSort();
-        SelectionSort selectionSort = new SelectionSort();
-        InsertionSort insertionSort = new InsertionSort();
-        ShellSort shellSort = new ShellSort();
-        WriteExcel writeExcel = new WriteExcel();
-
-
-        int num = 1000000;
-        int[] Array = new int[num];
-
-        dummyData.ReverseNumber(Array, num);
-
-        long start0 = System.currentTimeMillis();
-        shellSort.sort(Array, num);
-        long end0 = System.currentTimeMillis();
-        long timediff0 = end0 - start0;
-        System.out.printf("%d", timediff0);
-
-    }
-
-/*
     public static void main(String[] args) throws FileNotFoundException {
 
         DummyData dummyData = new DummyData();
@@ -309,6 +278,6 @@ public class Sort {
         writeExcel.writeExcel(data);        //실행 시간을 담은 3차원 배열을 엑셀 파일로 내보내기
 
     }
-*/
+
 
 }
