@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="poi-ooxml-full-5.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-ooxml-full-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-ooxml-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-integration-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-scratchpad-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-ooxml-lite-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-excelant-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-examples-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/poi-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/ooxml-lib/xmlbeans-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/ooxml-lib/curvesapi-1.06.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/poi-5.0.0/ooxml-lib/commons-compress-1.20.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/xmlbeans-bin-5.0.0-20210314/xmlbeans-5.0.0/lib/xmlbeans-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
