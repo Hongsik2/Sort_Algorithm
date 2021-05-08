@@ -165,11 +165,11 @@ static class InsertionSort implements Sorting {     	//삽입 정렬
 
 결과에 따른 그래프는 이렇게 나왔다.
 
-![실행 시간 그래프]()
+![실행 시간 그래프](https://user-images.githubusercontent.com/80087069/117193545-f30e0900-ae1d-11eb-9205-c9867c48cf17.png)
 
 쉘 정렬은 속도가 빨라 배열의 크기가 작으면 실행시간의 경향이 잘 보이지 않아 배열의 개수를 20만개~600만개로 해서 실행시켜 보았다.
 
-![쉘 정렬 시간 그래프]()
+![쉘 정렬 시간 그래프](https://user-images.githubusercontent.com/80087069/117193540-f0131880-ae1d-11eb-8ccc-d4338a2e1a38.png)
 
 
 
